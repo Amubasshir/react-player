@@ -54,7 +54,7 @@ function chillHop() {
     {
       name: 'Under the City Stars',
       cover:
-        'https://chillhop.com/wp-content/uploads/2020/09/0255e8b8c74c90d4a27c594b3452b2daafae608d-1024x1024.jpg',
+        'https://chillhop.com/wp-content/uploads/2022/04/c46e7efae453e56f839e3683926e809639f167b0-1024x1024.jpg',
       artist: 'Aso, Middle School, Aviino',
       audio: 'https://mp3.chillhop.com/serve.php/?mp3=10074',
       color: ['#205950', '#2ab3bf'],

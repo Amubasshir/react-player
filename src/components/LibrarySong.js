@@ -1,6 +1,22 @@
-const LibrarySong = ({ song, songs, setCurrentSong, id }) => {
+const LibrarySong = ({
+  song,
+  songs,
+  setCurrentSong,
+  id,
+  audioRef,
+  isPlaying,
+}) => {
   const songSelectHandler = async () => {
     await setCurrentSong(song);
+    // check the audio is playing
+    if (isPlaying) {
+      const playPromise = audioRef.current.play();
+      if (playPromise !== undefined) {
+        playPromise.then((audio) => {
+          audioRef.current.play();
+        });
+      }
+    }
   };
   return (
     <div onClick={songSelectHandler} className="library-song">
