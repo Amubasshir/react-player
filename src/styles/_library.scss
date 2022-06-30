@@ -7,6 +7,9 @@
   background-color: white;
   box-shadow: 2px 2px 30px rgb(203, 202, 204);
   overflow: scroll;
+  transform: translateX(-100%);
+  transition: all 0.5s ease;
+  opacity: 0;
   h2 {
     padding: 3rem;
     color: rgba(0, 0, 0, 0.763);
@@ -52,4 +55,9 @@
   background-color: rgba(155, 155, 155, 0.7);
   border-radius: 20px;
   border: transparent;
+}
+
+.selected {
+  // background: rgb(210, 211, 210);
+  background: rgb(237, 242, 242);
 }
