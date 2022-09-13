@@ -42,7 +42,7 @@ function chillHop() {
       active: false,
     },
     {
-      name: 'Reflection',
+      name: 'Wild stone',
       cover:
         'https://chillhop.com/wp-content/uploads/2020/07/ff35dede32321a8aa0953809812941bcf8a6bd35-1024x1024.jpg',
       artist: 'Swørn',
